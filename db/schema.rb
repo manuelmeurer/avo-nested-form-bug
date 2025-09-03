@@ -10,5 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 0) do
+ActiveRecord::Schema[8.0].define(version: 2025_09_03_115049) do
+  create_table "deliveries", force: :cascade do |t|
+    t.string "subject"
+    t.text "body"
+    t.string "deliverable_type"
+    t.integer "deliverable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["deliverable_type", "deliverable_id"], name: "index_deliveries_on_deliverable"
+  end
+
+  create_table "messages", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 end
