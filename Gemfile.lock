@@ -1,29 +1,29 @@
 GEM
   remote: https://packager.dev/avo-hq/
   specs:
-    avo-advanced (3.24.0)
-      avo (= 3.24.0)
-      avo-dynamic_filters (= 3.24.0)
-      avo-pro (= 3.24.0)
+    avo-advanced (3.24.1)
+      avo (= 3.24.1)
+      avo-dynamic_filters (= 3.24.1)
+      avo-pro (= 3.24.1)
       zeitwerk (>= 2.6.12)
-    avo-dashboards (3.24.0)
-      avo (= 3.24.0)
+    avo-dashboards (3.24.1)
+      avo (= 3.24.1)
       turbo-rails
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-dynamic_filters (3.24.0)
-      avo (= 3.24.0)
+    avo-dynamic_filters (3.24.1)
+      avo (= 3.24.1)
       ransack (>= 4.2.0)
       view_component (>= 3.7.0)
       zeitwerk (>= 2.6.12)
-    avo-menu (3.24.0)
-      avo (= 3.24.0)
+    avo-menu (3.24.1)
+      avo (= 3.24.1)
       docile
       zeitwerk (>= 2.6.12)
-    avo-pro (3.24.0)
-      avo (= 3.24.0)
-      avo-dashboards (= 3.24.0)
-      avo-menu (= 3.24.0)
+    avo-pro (3.24.1)
+      avo (= 3.24.1)
+      avo-dashboards (= 3.24.1)
+      avo-menu (= 3.24.1)
       zeitwerk (>= 2.6.12)
 
 GEM
@@ -106,7 +106,7 @@ GEM
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.3)
-    avo (3.24.0)
+    avo (3.24.1)
       actionview (>= 6.1)
       active_link_to
       activerecord (>= 6.1)
@@ -126,7 +126,7 @@ GEM
     base64 (0.3.0)
     bcrypt_pbkdf (1.1.1)
     benchmark (0.4.1)
-    bigdecimal (3.2.2)
+    bigdecimal (3.2.3)
     bindex (0.8.1)
     bootsnap (1.18.6)
       msgpack (~> 1.2)
@@ -224,19 +224,19 @@ GEM
       net-protocol
     net-ssh (7.3.0)
     nio4r (2.7.4)
-    nokogiri (1.18.9-aarch64-linux-gnu)
+    nokogiri (1.18.10-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.9-aarch64-linux-musl)
+    nokogiri (1.18.10-aarch64-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.9-arm-linux-gnu)
+    nokogiri (1.18.10-arm-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.9-arm-linux-musl)
+    nokogiri (1.18.10-arm-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.9-arm64-darwin)
+    nokogiri (1.18.10-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.9-x86_64-linux-gnu)
+    nokogiri (1.18.10-x86_64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.9-x86_64-linux-musl)
+    nokogiri (1.18.10-x86_64-linux-musl)
       racc (~> 1.4)
     ostruct (0.6.3)
     pagy (9.4.0)
@@ -475,17 +475,17 @@ CHECKSUMS
   activesupport (8.0.2.1) sha256=0405a76fd1ca989975d9ae00d46a4d3979bdf3817482d846b63affa84bd561c6
   addressable (2.8.7) sha256=462986537cf3735ab5f3c0f557f14155d778f4b43ea4f485a9deb9c8f7c58232
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
-  avo (3.24.0) sha256=9f53ed0fd1fd32ca8388b174feaeffb7406df3cc154f60f30ec0bfb5db6ca8c1
-  avo-advanced (3.24.0) sha256=1cefced89c05e3e191f4a9c2cdb657e4a713d417b8da78daba1cf31347f1db3a
-  avo-dashboards (3.24.0) sha256=3ff59885394bf4d183804e44332220c5b192e697dbb6157047617e179b6b7b99
-  avo-dynamic_filters (3.24.0) sha256=19970c546390024d8561f2dac68b13b7bad7e4940695574c06c96e9c0b2b73cb
+  avo (3.24.1) sha256=72e1baf457d184add434f87b7fbbf78e26904b73ce6e38b5452faca088736bf3
+  avo-advanced (3.24.1) sha256=e32e11d5aa21a3e9224543797f72af639827fc61f25544bc5356f8c7f7fcc164
+  avo-dashboards (3.24.1) sha256=7d9bab8df27abdcfc59a65920dd60223c8465ee876addb5a9ef4f8dd49b41227
+  avo-dynamic_filters (3.24.1) sha256=41689e99cd764d05b4202aa78f15233e4fbd6c588cd4f2a17605fda931d19e6a
   avo-heroicons (0.1.1) sha256=65cf6b4165691585d172d885ba30b8c7cf979615907febf6f34c1a6569bdbff6
-  avo-menu (3.24.0) sha256=de9174beb99d5714b453bc6bb018f99b1397f79d0db722621bd20736aafb9876
-  avo-pro (3.24.0) sha256=ae6db1935baa62e79e81476d40a26583f1edc76cd854692dad1746905f990460
+  avo-menu (3.24.1) sha256=7a0c6b1fa800baf7c26de8b672bec33f8c5249ab07c3d1002201cd75574f2789
+  avo-pro (3.24.1) sha256=ddcfc95b40bf1d29fadccc5995f45a3f7288bad35ab7daf110a0382616b0cff0
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   bcrypt_pbkdf (1.1.1) sha256=2f9077dde837d1f0dd2eb0f9e5327c6871c68ebc8eba88870fb6b7956e1e2b13
   benchmark (0.4.1) sha256=d4ef40037bba27f03b28013e219b950b82bace296549ec15a78016552f8d2cce
-  bigdecimal (3.2.2) sha256=39085f76b495eb39a79ce07af716f3a6829bc35eb44f2195e2753749f2fa5adc
+  bigdecimal (3.2.3) sha256=ffd11d1ac67a0d3b2f44aec0a6487210b3f813f363dd11f1fcccf5ba00da4e1b
   bindex (0.8.1) sha256=7b1ecc9dc539ed8bccfc8cb4d2732046227b09d6f37582ff12e50a5047ceb17e
   bootsnap (1.18.6) sha256=0ae2393c1e911e38be0f24e9173e7be570c3650128251bf06240046f84a07d00
   brakeman (7.1.0) sha256=bbc708a75a53008490c8b9600b97fa85cb3d5a8818dd1560f18e0b89475d48af
@@ -532,13 +532,13 @@ CHECKSUMS
   net-smtp (0.5.1) sha256=ed96a0af63c524fceb4b29b0d352195c30d82dd916a42f03c62a3a70e5b70736
   net-ssh (7.3.0) sha256=172076c4b30ce56fb25a03961b0c4da14e1246426401b0f89cba1a3b54bf3ef0
   nio4r (2.7.4) sha256=d95dee68e0bb251b8ff90ac3423a511e3b784124e5db7ff5f4813a220ae73ca9
-  nokogiri (1.18.9-aarch64-linux-gnu) sha256=5bcfdf7aa8d1056a7ad5e52e1adffc64ef53d12d0724fbc6f458a3af1a4b9e32
-  nokogiri (1.18.9-aarch64-linux-musl) sha256=55e9e6ca46c4ad1715e313f407d8481d15be1e3b65d9f8e52ba1c124d01676a7
-  nokogiri (1.18.9-arm-linux-gnu) sha256=fe611ae65880e445a9c0f650d52327db239f3488626df4173c05beafd161d46e
-  nokogiri (1.18.9-arm-linux-musl) sha256=935605e14c0ba17da18d203922440bf6c0676c602659278d855d4622d756a324
-  nokogiri (1.18.9-arm64-darwin) sha256=eea3f1f06463ff6309d3ff5b88033c4948d0da1ab3cc0a3a24f63c4d4a763979
-  nokogiri (1.18.9-x86_64-linux-gnu) sha256=b52f5defedc53d14f71eeaaf990da66b077e1918a2e13088b6a96d0230f44360
-  nokogiri (1.18.9-x86_64-linux-musl) sha256=e69359d6240c17e64cc9f43970d54f13bfc7b8cc516b819228f687e953425e69
+  nokogiri (1.18.10-aarch64-linux-gnu) sha256=7fb87235d729c74a2be635376d82b1d459230cc17c50300f8e4fcaabc6195344
+  nokogiri (1.18.10-aarch64-linux-musl) sha256=7e74e58314297cc8a8f1b533f7212d1999dbe2639a9ee6d97b483ea2acc18944
+  nokogiri (1.18.10-arm-linux-gnu) sha256=51f4f25ab5d5ba1012d6b16aad96b840a10b067b93f35af6a55a2c104a7ee322
+  nokogiri (1.18.10-arm-linux-musl) sha256=1c6ea754e51cecc85c30ee8ab1e6aa4ce6b6e134d01717e9290e79374a9e00aa
+  nokogiri (1.18.10-arm64-darwin) sha256=c2b0de30770f50b92c9323fa34a4e1cf5a0af322afcacd239cd66ee1c1b22c85
+  nokogiri (1.18.10-x86_64-linux-gnu) sha256=ff5ba26ba2dbce5c04b9ea200777fd225061d7a3930548806f31db907e500f72
+  nokogiri (1.18.10-x86_64-linux-musl) sha256=0651fccf8c2ebbc2475c8b1dfd7ccac3a0a6d09f8a41b72db8c21808cb483385
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   pagy (9.4.0) sha256=db3f2e043f684155f18f78be62a81e8d033e39b9f97b1e1a8d12ad38d7bce738
   parallel (1.27.0) sha256=4ac151e1806b755fb4e2dc2332cbf0e54f2e24ba821ff2d3dcf86bf6dc4ae130
